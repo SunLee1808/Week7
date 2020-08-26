@@ -12869,19 +12869,19 @@ a.text-darkGray:hover, a.text-darkGray:focus {
   font-size: 20px;
 }
 
-.btn-style {
+.btnStyle {
   font-size: 20px;
   padding: 18px 52px;
   border: 2px solid black;
   border-radius: 30px;
 }
 
-.sold-out img {
+.soldOut img {
   position: relative;
   background-image: url("../image/photo4-3-1.png");
 }
 
-.sold-out p {
+.soldOut p {
   position: absolute;
   top: 42%;
   left: 38%;
