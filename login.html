@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <!--Header -->
+    <header class="container d-flex">
+        <h1 class="text-hide mr-auto my-2"><a href="homepage.html"><img class="img-fluid" src="image/d’Perfume.png" alt="">d’Perfume</a></h1>
+        <nav class="navbar navbar-expand-md p-0">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="navbar-toggler smCart position-relative m-0">
+                    <i class="fas fa-shopping-cart text-dark"></i>
+                    <p class="text-white bg-primaryDark position-absolute mb-0 text-center">3</p>
+                </div>
+                <button class="navbar-toggler ml-3" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-dark"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav"> 
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-dark" href="product.html">
+                                <i class="fas fa-tshirt mr-1"></i>
+                                <span>Product</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-dark" href="login.html">
+                                <i class="fas fa-user-alt mr-1"></i>
+                                <span>log in</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-5">
+                            <a class="nav-link text-dark" href="">
+                                <i class="fas fa-heart mr-1"></i>
+                                <span>Wishlist</span>
+                            </a>                        
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">
+                                <i class="fas fa-shopping-cart mr-1"></i>
+                                <span>Cart(3)</span>
+                            </a> 
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid px-0 collapse navbar-collapse" id="navbarToggler1">
+        <ul class="navbar-nav mr-auto d-flex justify-content-between">
+            <li class="nav-item bg-darkGray text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="product.html">Product</a>
+            </li>
+            <li class="nav-item bg-darkGray text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Wishlist</a>
+            </li>
+            <li class="nav-item bg-darkGray text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Blog</a>
+            </li>
+            <li class="nav-item bg-darkGray text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Contact</a>
+            </li>
+            <li class="nav-item bg-darkGray text-center">
+                <a class="nav-link text-white py-3" href="login.html">Log in</a>
+            </li>
+        </ul>
+    </div>
+    <!--/.Header -->
+
+    <!-- Product_nav -->
+    <div class="container-fluid bg-primaryDark product_nav  mb-lg-8 d-none d-md-block">
+        <div class="container">
+            <ul class="nav d-flex">
+                <li class="nav-item"><a class="nav-link text-white pl-0" href="">CHANEL</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">Jo Malone</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">Curology</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">Dior</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">Chloe</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">ZARA</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.Product_nav -->
+    
+    <!-- Log in -->
+    <div class="container">
+        <div class="row login align-items-center mb-9">
+            <div class="col-12 col-md-8 mt-5">
+                <img src="image/login.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-4 mt-4">
+                <h2 class="mb-3">Log in</h2>
+                <form>
+                    <div class="form-group mb-4">
+                        <label class="mb-1" for="InputEmail1">帳號</label>
+                        <input type="email" class="form-control" id="InputEmail1" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group mb-6">
+                        <label class="mb-1" for="InputPassword">密碼</label>
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+                    </div>
+                    <div class="d-flex  justify-content-between align-items-center">
+                        <a href="" class="text-primaryDark font-weight-bold">忘記密碼</a>
+                        <div class="d-flex">
+                            <button class="btn-lg btn-primaryDark bg-white text-primaryDark mr-2">註冊</button>
+                            <a class="btn-lg btn-primaryDark text-white text-decoration-none border-primaryDark" href="mypage.html">登入</a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.Log in -->
+
+
+    <!--Footer -->
+    <footer class="container-fluid footerCopyright bg-primaryDark">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-4 ">
+                <div class="d-flex align-items-center">
+                    <a class="mr-4" href="#">
+                        <img class="img-fluid" src="image/logo-light.png" alt="">
+                    </a>
+                    <small class="text-white">© 2020. All Rights Reserved.</small>
+                </div>
+                <ul class="list-inline mb-0 d-none d-md-block">
+                    <li class="list-inline-item mr-6"><a class="text-white h5 font-weight-normal" href="product.html">Product</a></li>
+                    <li class="list-inline-item mr-6"><a class="text-white h5 font-weight-normal" href="">Blog</a></li>
+                    <li class="list-inline-item"><a class="text-white h5 font-weight-normal" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer> 
+    <!--/.Footer -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
